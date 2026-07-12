@@ -1,0 +1,21 @@
+.reports-charts { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+.report-chart-card { padding: 18px 20px; }
+
+.bar-chart { display: flex; align-items: flex-end; gap: 14px; height: 150px; padding-top: 10px; }
+.bar-col { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; }
+.bar { width: 100%; max-width: 34px; background: linear-gradient(180deg, var(--accent), #1f8f5e); border-radius: 4px 4px 0 0; }
+.bar-label { font-size: 10.5px; color: var(--text-faint); margin-top: 8px; text-align: center; }
+.bar-value { font-size: 10.5px; color: var(--text-muted); margin-top: 2px; }
+
+.line-chart { width: 100%; height: 150px; }
+
+.reports-lists { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.report-list-card { padding: 18px 20px; }
+.report-list-card ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.report-list-card li { display: flex; justify-content: space-between; gap: 10px; font-size: 12.5px; padding-bottom: 10px; border-bottom: 1px solid var(--border-soft); }
+.report-list-card li:last-child { border-bottom: none; padding-bottom: 0; }
+.report-list-card li .mono { color: var(--text-faint); font-size: 11.5px; white-space: nowrap; }
+
+@media (max-width: 1100px) {
+  .reports-charts, .reports-lists { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,14 @@
+.audit-card { padding: 20px 22px; margin-bottom: 18px; }
+.audit-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 14px; }
+.audit-name { font-family: var(--font-display); font-size: 15px; font-weight: 600; margin: 0; }
+.audit-meta { color: var(--text-muted); font-size: 12.5px; margin: 4px 0 0; }
+
+.audit-flag-banner {
+  background: var(--warning-dim);
+  border: 1px solid #4a3a1e;
+  color: var(--warning-text);
+  padding: 11px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  margin-top: 14px;
+}

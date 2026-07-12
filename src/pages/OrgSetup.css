@@ -1,0 +1,2 @@
+.org-tabs { display: flex; gap: 8px; margin-bottom: 18px; }
+.org-note { color: var(--text-faint); font-size: 12px; padding: 14px 16px; border-top: 1px solid var(--border-soft); margin: 0; }
